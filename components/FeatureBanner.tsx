@@ -33,7 +33,8 @@ const FeatureBanner = () => {
 				className="h-full max-w-7xl mx-auto flex items-center justify-center gap-10 px-5"
 				variants={containerVariants}
 				initial="hidden"
-				animate="show"
+				whileInView="show"
+				viewport={{ once: true }}
 			>
 				{items.map((label, index) => (
 					<React.Fragment key={label}>
