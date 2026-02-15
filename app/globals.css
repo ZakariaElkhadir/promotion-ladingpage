@@ -15,6 +15,9 @@
     --color-input-bg: #1f2937;
     --color-white: #ffffff;
     --color-border-dark: #000000;
+
+    /* Fonts */
+    --font-serif: var(--font-playfair-display);
 }
 
 .h2-36 {
