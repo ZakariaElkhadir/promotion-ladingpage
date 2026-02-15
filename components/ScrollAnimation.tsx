@@ -2,6 +2,7 @@
 
 import { useEffect, useRef } from "react";
 import { motion, useAnimation, useInView } from "framer-motion";
+import type { Variants } from "framer-motion";
 
 interface ScrollAnimationProps {
   children: React.ReactNode;
@@ -30,7 +31,7 @@ const ScrollAnimation = ({
     }
   }, [isInView, controls]);
 
-  const variants = {
+  const variants: Variants = {
     hidden: {
       opacity: 0,
       y: animation === "fade-up" ? 50 : 0,
@@ -50,7 +51,7 @@ const ScrollAnimation = ({
       transition: {
         duration: duration,
         delay: delay,
-        ease: "easeOut",
+        ease: "easeOut" as const,
       },
     },
   };
