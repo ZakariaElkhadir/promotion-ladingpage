@@ -24,7 +24,7 @@ const RecoverySection = () => {
         </div>
         <div className="flex flex-col justify-center gap-10 lg:gap-16">
           <ScrollAnimation animation="slide-left" delay={0.3}>
-            <div className="flex items-center gap-4">
+            <div className="flex items-center gap-4 hover:scale-105 transition-transform duration-300 cursor-pointer">
               <Image
                 src="/icons/rbi3a.png"
                 alt="RBI3A"
@@ -41,7 +41,7 @@ const RecoverySection = () => {
             </div>
           </ScrollAnimation>
           <ScrollAnimation animation="slide-left" delay={0.4}>
-            <div className="flex items-center gap-4">
+            <div className="flex items-center gap-4 hover:scale-105 transition-transform duration-300 cursor-pointer">
               <Image
                 src="/icons/coffee.png"
                 alt="Coffee"
@@ -58,7 +58,7 @@ const RecoverySection = () => {
             </div>
           </ScrollAnimation>
           <ScrollAnimation animation="slide-left" delay={0.5}>
-            <div className="flex items-center gap-4">
+            <div className="flex items-center gap-4 hover:scale-105 transition-transform duration-300 cursor-pointer">
               <Image
                 src="/icons/micro.png"
                 alt="Microalgae"

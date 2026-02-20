@@ -12,7 +12,7 @@ const Footer = () => {
 							no hidden ingredients, just good skin.
 						</p>
 						<div className="flex items-center justify-center md:justify-start gap-3 mt-6">
-							<span className="w-8 h-8 border border-white/70 rounded-full flex items-center justify-center">
+							<span className="w-8 h-8 border border-white/70 rounded-full flex items-center justify-center hover:bg-white hover:text-dark transition-all duration-300 cursor-pointer">
 								<svg
 									viewBox="0 0 24 24"
 									className="w-4 h-4"
@@ -24,7 +24,7 @@ const Footer = () => {
 									/>
 								</svg>
 							</span>
-							<span className="w-8 h-8 border border-white/70 rounded-full flex items-center justify-center">
+							<span className="w-8 h-8 border border-white/70 rounded-full flex items-center justify-center hover:bg-white hover:text-dark transition-all duration-300 cursor-pointer">
 								<svg
 									viewBox="0 0 24 24"
 									className="w-4 h-4"
@@ -36,7 +36,7 @@ const Footer = () => {
 									/>
 								</svg>
 							</span>
-							<span className="w-8 h-8 border border-white/70 rounded-full flex items-center justify-center">
+							<span className="w-8 h-8 border border-white/70 rounded-full flex items-center justify-center hover:bg-white hover:text-dark transition-all duration-300 cursor-pointer">
 								<svg
 									viewBox="0 0 24 24"
 									className="w-4 h-4"
@@ -54,22 +54,22 @@ const Footer = () => {
 					<div className="text-center md:text-left">
 						<h4 className="text-sm tracking-[0.2em] uppercase">Shop</h4>
 						<ul className="text-secondary mt-5 space-y-2">
-							<li>Best Sellers</li>
-							<li>New Arrivals</li>
-							<li>Cleansers</li>
-							<li>Serums</li>
-							<li>Bundles</li>
+							<li className="hover:text-white transition-colors cursor-pointer">Best Sellers</li>
+							<li className="hover:text-white transition-colors cursor-pointer">New Arrivals</li>
+							<li className="hover:text-white transition-colors cursor-pointer">Cleansers</li>
+							<li className="hover:text-white transition-colors cursor-pointer">Serums</li>
+							<li className="hover:text-white transition-colors cursor-pointer">Bundles</li>
 						</ul>
 					</div>
 
 					<div className="text-center md:text-left">
 						<h4 className="text-sm tracking-[0.2em] uppercase">About</h4>
 						<ul className="text-secondary mt-5 space-y-2">
-							<li>Our Story</li>
-							<li>Ingredients</li>
-							<li>Sustainability</li>
-							<li>Community</li>
-							<li>Careers</li>
+							<li className="hover:text-white transition-colors cursor-pointer">Our Story</li>
+							<li className="hover:text-white transition-colors cursor-pointer">Ingredients</li>
+							<li className="hover:text-white transition-colors cursor-pointer">Sustainability</li>
+							<li className="hover:text-white transition-colors cursor-pointer">Community</li>
+							<li className="hover:text-white transition-colors cursor-pointer">Careers</li>
 						</ul>
 					</div>
 
@@ -84,7 +84,7 @@ const Footer = () => {
 								placeholder="Your email address"
 								className="w-full bg-input-bg text-white px-4 py-3 border border-border-dark"
 							/>
-							<button className="w-full bg-yellow text-primary font-bold px-4 py-3 mt-3">
+							<button className="w-full bg-yellow text-primary font-bold px-4 py-3 mt-3 hover:bg-[#e59800] hover:scale-105 transition-all duration-300">
 								SUBSCRIBE
 							</button>
 						</div>
@@ -95,8 +95,8 @@ const Footer = () => {
 				<div className="flex flex-col md:flex-row items-center justify-between text-secondary text-sm py-6">
 					<p>© 2023 Versed Skincare. All rights reserved.</p>
 					<div className="flex items-center gap-6 mt-3 md:mt-0">
-						<span>Privacy Policy</span>
-						<span>Terms of Service</span>
+						<span className="hover:text-white transition-colors cursor-pointer">Privacy Policy</span>
+						<span className="hover:text-white transition-colors cursor-pointer">Terms of Service</span>
 					</div>
 				</div>
 			</div>

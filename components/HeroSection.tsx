@@ -16,10 +16,10 @@ const HeroSection = () => {
           </ScrollAnimation>
           <ScrollAnimation animation="fade-up" delay={0.6}>
             <div className='flex flex-col items-center lg:items-start'>
-              <button className='bg-yellow text-primary px-4 py-3 mt-4 w-full sm:w-60 h-12 shadow-[0_4px_6px_rgba(0,0,0,0.3)] -rotate-2 hover:rotate-0 transition-transform duration-300'>
+              <button className='bg-yellow text-primary px-4 py-3 mt-4 w-full sm:w-60 h-12 shadow-[0_4px_6px_rgba(0,0,0,0.3)] -rotate-2 hover:rotate-0 hover:bg-[#e59800] hover:scale-105 transition-all duration-300'>
                 CODE: WELLVERSED10
               </button>
-              <button className='bg-black text-white px-4 py-2 mt-4 sm:ml-4 w-full sm:w-48 h-12'>
+              <button className='bg-black text-white px-4 py-2 mt-4 sm:ml-4 w-full sm:w-48 h-12 hover:bg-black/80 hover:scale-105 transition-all duration-300'>
                 SHOP 10% OFF
               </button>
             </div>

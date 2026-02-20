@@ -16,7 +16,7 @@ const JoinSection = () => {
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-8 lg:mt-12">
           <ScrollAnimation animation="fade-up" delay={0.2} className="w-full">
-            <div className="bg-light-bg border border-border-dark px-8 py-6 max-w-sm w-full mx-auto h-full text-center">
+            <div className="bg-light-bg border border-border-dark px-8 py-6 max-w-sm w-full mx-auto h-full text-center hover:-translate-y-2 hover:shadow-xl transition-all duration-300 cursor-pointer">
               <p className="text-primary font-serif text-8xl leading-none">01</p>
               <h3 className="text-primary font-bold text-2xl tracking-wide mt-4 mb-2">JOIN THE SQUAD</h3>
               <p className="text-secondary mt-2">
@@ -25,7 +25,7 @@ const JoinSection = () => {
             </div>
           </ScrollAnimation>
           <ScrollAnimation animation="fade-up" delay={0.3} className="w-full">
-            <div className="bg-light-bg border border-border-dark px-8 py-6 max-w-sm w-full mx-auto h-full text-center">
+            <div className="bg-light-bg border border-border-dark px-8 py-6 max-w-sm w-full mx-auto h-full text-center hover:-translate-y-2 hover:shadow-xl transition-all duration-300 cursor-pointer">
               <p className="text-primary font-serif text-8xl leading-none">02</p>
               <h3 className="text-primary font-bold text-2xl tracking-wide mt-4 mb-2">RACK UP POINTS</h3>
               <p className="text-secondary mt-2">
@@ -34,7 +34,7 @@ const JoinSection = () => {
             </div>
           </ScrollAnimation>
           <ScrollAnimation animation="fade-up" delay={0.4} className="w-full">
-            <div className="bg-light-bg border border-border-dark px-8 py-6 max-w-sm w-full mx-auto h-full text-center">
+            <div className="bg-light-bg border border-border-dark px-8 py-6 max-w-sm w-full mx-auto h-full text-center hover:-translate-y-2 hover:shadow-xl transition-all duration-300 cursor-pointer">
               <p className="text-primary font-serif text-8xl leading-none">03</p>
               <h3 className="text-primary font-bold text-2xl tracking-wide mt-4 mb-2">ENJOY PERKS</h3>
               <p className="text-secondary mt-2">
@@ -45,7 +45,7 @@ const JoinSection = () => {
         </div>
 
         <ScrollAnimation animation="fade-up" delay={0.5}>
-          <button className="mt-10 bg-black text-white px-10 py-3 font-bold w-full sm:w-auto">
+          <button className="mt-10 bg-black text-white px-10 py-3 font-bold w-full sm:w-auto hover:bg-black/80 hover:scale-105 active:scale-95 transition-all duration-300">
             SIGN UP NOW
           </button>
         </ScrollAnimation>
