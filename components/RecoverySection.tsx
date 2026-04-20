@@ -3,7 +3,7 @@ import ScrollAnimation from "./ScrollAnimation";
 
 const RecoverySection = () => {
   return (
-    <section className="bg-light-bg pt-16 sm:pt-20 px-5 overflow-hidden">
+    <section id="recovery" className="bg-light-bg pt-16 sm:pt-20 px-5 overflow-hidden">
       <ScrollAnimation animation="fade-up">
         <p className="text-center text-secondary">PUT SKIN IN </p>
         <h2 className="text-primary font-bold text-center text-2xl sm:text-3xl lg:text-[2.25rem]">

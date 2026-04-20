@@ -2,7 +2,7 @@ import ScrollAnimation from "./ScrollAnimation";
 
 const JoinSection = () => {
   return (
-    <section className="bg-yellow py-16 sm:py-20 px-5 overflow-hidden">
+    <section id="join" className="bg-yellow py-16 sm:py-20 px-5 overflow-hidden">
       <div className="max-w-7xl mx-auto text-center">
         <ScrollAnimation animation="fade-up">
           <h2 className="text-primary font-bold uppercase text-2xl sm:text-3xl lg:text-[2.25rem]">

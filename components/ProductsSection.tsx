@@ -3,7 +3,7 @@ import ScrollAnimation from "./ScrollAnimation";
 
 const ProductsSection = () => {
   return (
-    <section className="products-section mt-16 sm:mt-20 px-5">
+    <section id="products" className="products-section mt-16 sm:mt-20 px-5">
 
       <ScrollAnimation animation="fade-up">
         <h2 className="uppercase text-center text-2xl sm:text-3xl lg:text-[2.25rem]">
