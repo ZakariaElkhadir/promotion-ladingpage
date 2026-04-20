@@ -30,7 +30,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${plusJakartaSans.variable} ${geistMono.variable} ${playfairDisplay.variable} antialiased`}
+        className={`${plusJakartaSans.variable} ${geistMono.variable} ${playfairDisplay.variable} antialiased overflow-x-hidden`}
       >
         {children}
       </body>

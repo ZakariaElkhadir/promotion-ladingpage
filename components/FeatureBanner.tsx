@@ -28,9 +28,9 @@ const itemVariants = {
 
 const FeatureBanner = () => {
 	return (
-		<div className="w-full h-13 bg-black text-white">
+		<div className="w-full min-h-[52px] py-3 bg-black text-white">
 			<motion.div
-				className="h-full max-w-7xl mx-auto flex items-center justify-center gap-10 px-5"
+				className="h-full max-w-7xl mx-auto flex flex-wrap items-center justify-center gap-x-10 gap-y-2 px-5"
 				variants={containerVariants}
 				initial="hidden"
 				whileInView="show"
